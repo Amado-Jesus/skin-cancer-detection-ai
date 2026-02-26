@@ -143,5 +143,7 @@ def predict(img,model,transforms, device='cpu'):
     
     plt.tight_layout()
     plt.show()
+
+    return fig
     
     
